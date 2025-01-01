@@ -23,7 +23,10 @@ To interface a 16x2 LCD with Arduino using the I2C protocol and display dynamic 
 
 ## Video Simulation
 
-![](./lcd.mp4)
+<video width="600" controls>
+  <source src="./lcd.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
