@@ -97,7 +97,9 @@ Coming Soon !!!
 ```
 
 ### Additional Programs
-   - [Push Button](./00%20Additional%20Programs/01%20Interfacing%20Push%20Button.md)
+#### 1. [Push Button](./00%20Additional%20Programs/01%20Interfacing%20Push%20Button.md)
+
+#### 2. [Calibration of IR Sensor](./05%20Calibration%20of%20Sensors/01%20Calibration%20of%20IR%20Sensor.md)
 
 ## How to Use
 1. Clone the repository:
