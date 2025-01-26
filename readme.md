@@ -44,6 +44,10 @@ After completion of the course, students will be able to:
    - [IR Sensor](./02%20Interfacing%20IR%20and%20Ultrasonic%20sensor%20with%20Arduino/2a%20Interfacing%20IR%20Sensor.md)
    - [Ultrasonic Sensor](./02%20Interfacing%20IR%20and%20Ultrasonic%20sensor%20with%20Arduino/2b%20Interfacing%20UltraSonic%20Sensor.md)
 
+#### 3. DC Motor Control
+   - [Speed and Direction Control](./03%20Interfacing%20DC%20Motor/03%20Interfacing%20DC%20Motor.md)
+
+
 #### 4. Servo Motor Control
    - [Angle of Rotation](./04%20Interfacing%20Servo%20Motors/04%20Interfacing%20Servo%20Motor.md)
 
@@ -54,11 +58,6 @@ After completion of the course, students will be able to:
 
 ```{toggle}
 Coming Soon !!!
-
-
-
-
-
 
 
 #### 6. [Mobile Robot Assembly](./Part-A/exp6/)
