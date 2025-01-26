@@ -1,5 +1,5 @@
 
-# Experiment No. 3: Calibration of IR Sensors and Obtaining the Calibration Curve
+# Calibration of IR Sensors and Obtaining the Calibration Curve
 
 ---
 

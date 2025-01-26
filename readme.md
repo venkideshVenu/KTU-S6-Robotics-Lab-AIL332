@@ -44,18 +44,22 @@ After completion of the course, students will be able to:
    - [IR Sensor](./02%20Interfacing%20IR%20and%20Ultrasonic%20sensor%20with%20Arduino/2a%20Interfacing%20IR%20Sensor.md)
    - [Ultrasonic Sensor](./02%20Interfacing%20IR%20and%20Ultrasonic%20sensor%20with%20Arduino/2b%20Interfacing%20UltraSonic%20Sensor.md)
 
+#### 4. Servo Motor Control
+   - [Angle of Rotation](./04%20Interfacing%20Servo%20Motors/04%20Interfacing%20Servo%20Motor.md)
+
+#### 5. Sensor Calibration
+   - Sonar Calibration
+   - [IR Sensor Calibration](./05%20Calibration%20of%20Sensors/01%20Calibration%20of%20IR%20Sensor.md)
+   - Calibration Curves
+
 ```{toggle}
 Coming Soon !!!
 
 
 
-#### 4. Servo Motor Control
-   - Angle of Rotation
 
-#### 5. [Sensor Calibration](./Part-A/exp5/)
-   - Sonar Calibration
-   - IR Sensor Calibration
-   - Calibration Curves
+
+
 
 #### 6. [Mobile Robot Assembly](./Part-A/exp6/)
 
@@ -97,9 +101,8 @@ Coming Soon !!!
 ```
 
 ### Additional Programs
-#### 1. [Push Button](./00%20Additional%20Programs/01%20Interfacing%20Push%20Button.md)
+   - [Push Button](./00%20Additional%20Programs/01%20Interfacing%20Push%20Button.md)
 
-#### 2. [Calibration of IR Sensor](./05%20Calibration%20of%20Sensors/01%20Calibration%20of%20IR%20Sensor.md)
 
 ## How to Use
 1. Clone the repository:
