@@ -56,17 +56,39 @@ After completion of the course, students will be able to:
    - [IR Sensor Calibration](./05%20Calibration%20of%20Sensors/01%20Calibration%20of%20IR%20Sensor.md)
    - Calibration Curves
 
+
+#### 6. Mobile Robot Assembly
+   - [Mobile Robot Assembly](./06%20Mobile%20Robot%20Assembly/06%20mobileRobotAssembly.md)
+
+
+
+### Part B: Intelligent systems
+
+
+#### 11. Line Following Robot
+   - [Line Following Robot](./11%20Line%20Following%20Robot/01%20Line%20Following%20Robot.md)
+
+
+#### 12. Obstacle Avoidance
+   - [Obstacle Avoidance Robot](./00%20Additional%20Programs/02%20ObstacleAvoidanceRobot.md)
+
+
+
+
+
 ```{toggle}
 Coming Soon !!!
 
 
-#### 6. [Mobile Robot Assembly](./Part-A/exp6/)
 
 #### 7. [Arduino Networking](./Part-A/exp7/)
    - GSM Integration
    - Bluetooth Communication
 
-### Part B: Intelligent systems
+
+
+
+
 #### 8. [ROS Programming Basics](./Part-B/exp8/)
    - Publisher-Subscriber Implementation
    - Service-Client Programming
@@ -81,13 +103,9 @@ Coming Soon !!!
     - Sensor Interfacing
     - Feedback System Implementation
 
-#### 11. [Line Following Robot](./Part-B/exp11/)
-    - IR Sensor Implementation
-    - Control Algorithm
 
-#### 12. [Obstacle Avoidance](./Part-B/exp12/)
-    - Point-to-Point Navigation
-    - Obstacle Detection and Avoidance
+
+
 
 #### 13. [Object Detection](./Part-B/exp13/)
     - Algorithm Implementation
