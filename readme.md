@@ -94,6 +94,8 @@ After completing this course, students will be able to:
 
 - [Publisher-Subscriber Implementation](./08%20ROS%20Programming%20Basics/01%20Publisher-Subscriber.md)
 - [Service-Client Programming](./08%20ROS%20Programming%20Basics/02%20Service%20Client%20Programming)
+- [Recording and Playing Back Data](./08%20ROS%20Programming%20Basics/03%20recordAndPlaybackData.md)
+- [Reading Messages from Bag File](./08%20ROS%20Programming%20Basics/04%20ReadFromBagFile.md)
 </details>
 
 <details>
