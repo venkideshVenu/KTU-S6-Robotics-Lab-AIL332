@@ -116,6 +116,12 @@ After completing this course, students will be able to:
 - [Turtlebot Simulation](./14%20ROS%20Navigation/01%20TurtleBot%20Simulation.md)
 </details>
 
+<details>
+<summary><b>13. Object Detection</b></summary>
+
+- [Object Detection using a Standard Algorithm](./13%20ObjectDetection.md/01%20ObjectDetection.md)
+</details>
+
 ### 🚧 Coming Soon
 
 <details>
@@ -133,9 +139,7 @@ After completing this course, students will be able to:
 - Sensor Interfacing
 - Feedback System Implementation
 
-#### 13. Object Detection
-- Algorithm Implementation
-- Testing and Validation
+
 </details>
 
 ### Additional Programs

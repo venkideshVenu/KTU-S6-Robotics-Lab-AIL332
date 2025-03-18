@@ -171,4 +171,3 @@ data: Hello, ROS2!
 This experiment demonstrated **how to record and replay messages** using ROS 2 bag files. We used `ros2 bag record` to capture messages, `ros2 bag play` to replay them, and `ros2 topic echo` to verify them.
 
 A custom Python program is **not required** for recording and replaying messages but can be useful if you need **to analyze or process data programmatically**.
-```
