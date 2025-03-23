@@ -96,10 +96,10 @@ The code applies different thresholds:
 
 ```python
 import cv2
-from google.colab.patches import cv2_imshow  # Use cv2.imshow() if running locally
+from google.colab.patches import cv2_imshow 
 
 # Load the image
-img = cv2.imread("football.jpeg")  # Download image and upload to Drive
+img = cv2.imread("football.jpeg")  # update with your image
 print("Football", img.shape)
 cv2_imshow(img)
 

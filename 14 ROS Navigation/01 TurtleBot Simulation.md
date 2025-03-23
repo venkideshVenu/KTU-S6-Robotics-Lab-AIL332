@@ -173,6 +173,13 @@ This will start sending velocity commands, and the turtle will move in a **circu
 
 ---
 
+### Turtlesim Output
+
+![](./turtlesim.gif)
+
+
+---
+
 ## **Conclusion**
 You have successfully simulated **Turtlesim navigation** in ROS 2. The **Turtlesim node** receives velocity commands from our custom **Python node** and moves in a **circular pattern**.
 
