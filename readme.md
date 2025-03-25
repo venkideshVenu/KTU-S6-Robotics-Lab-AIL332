@@ -90,7 +90,7 @@ This laboratory introduces the Robot Operating System (ROS) as a framework for r
 
 #### 8. ROS Programming Basics
 - [Publisher-Subscriber Implementation](./08%20ROS%20Programming%20Basics/01%20Publisher-Subscriber.md) - Implement basic ROS communication patterns
-- [Service-Client Programming](./08%20ROS%20Programming%20Basics/02%20Service%20Client%20Programming) - Create request-response based interactions
+- [Service-Client Programming](./08%20ROS%20Programming%20Basics/02%20Service%20Client%20Programming.md) - Create request-response based interactions
 - [Recording and Playing Back Data](./08%20ROS%20Programming%20Basics/03%20recordAndPlaybackData.md) - Use rosbag for data recording and playback
 - [Reading Messages from Bag File](./08%20ROS%20Programming%20Basics/04%20ReadFromBagFile.md) - Extract and process recorded sensor data
 
@@ -109,7 +109,7 @@ This laboratory introduces the Robot Operating System (ROS) as a framework for r
 - [Obstacle Avoidance Robot](./12%20Obstacle%20Avoidance%20Robot/01%20ObstacleAvoidanceRobot.md) - Create a robot that detects and avoids obstacles
 
 #### 13. Object Detection
-- [Object Detection using a Standard Algorithm](./13%20ObjectDetection.md/01%20ObjectDetection.md) - Implement computer vision for object recognition
+- [Object Detection using a Standard Algorithm](./13%20ObjectDetection/01%20ObjectDetection.md) - Implement computer vision for object recognition
 
 #### 14. ROS Navigation
 - [Turtlebot Simulation](./14%20ROS%20Navigation/01%20TurtleBot%20Simulation.md) - Simulate autonomous navigation using Turtlebot platform
