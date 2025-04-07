@@ -119,6 +119,10 @@ This laboratory introduces the Robot Operating System (ROS) as a framework for r
 - [Push Button Interfacing](./00%20Additional%20Programs/01%20Interfacing%20Push%20Button.md) - Learn how to use push buttons for robot interaction
 - More examples and utilities will be added throughout the course
 
+### Sample Viva Questions
+- [Smart Bin](./99%20Sample%20Viva%20Questions/01%20Smart%20Bin.md)
+
+- [Auto Window Opener](./99%20Sample%20Viva%20Questions/02%20Auto%20Window.md)
 ## 🚀 How to Use This Repository
 
 1. **Clone the repository:**
