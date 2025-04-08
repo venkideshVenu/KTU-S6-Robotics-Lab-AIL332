@@ -96,61 +96,65 @@ The code applies different thresholds:
 
 ```python
 import cv2
-from google.colab.patches import cv2_imshow 
+import matplotlib.pyplot as plt
 
 # Load the image
-img = cv2.imread("football.jpeg")  # update with your image
-print("Football", img.shape)
-cv2_imshow(img)
+img = cv2.imread("filename.jpg")  
+print("Original Image Shape:", img.shape)
+
+# Convert BGR to RGB for correct color display in Matplotlib
+img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
+# Function to display images
+def show_image(img, title="Image", cmap='gray'):
+    plt.figure(figsize=(5, 5))
+    plt.imshow(img, cmap=cmap)
+    plt.title(title)
+    plt.axis("off")
+    plt.show()
+
+# Display original image
+show_image(img, "Original Image")
 
 # Splitting the image into color channels
 B, G, R = cv2.split(img)
-print("BLUE", B.shape)
-cv2_imshow(B)
-print("GREEN", G.shape)
-cv2_imshow(G)
-print("RED", R.shape)
-cv2_imshow(R)
+show_image(B, "Blue Channel")
+show_image(G, "Green Channel")
+show_image(R, "Red Channel")
 
 # Convert to Gray color space
 grayImg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-cv2_imshow(grayImg)
+show_image(grayImg, "Grayscale Image")
 
 # Convert to HSV color space
 hsvImage = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-cv2_imshow(hsvImage)
+show_image(hsvImage, "HSV Image")
 
 # Convert to YCrCb color space
 YCRImage = cv2.cvtColor(img, cv2.COLOR_BGR2YCrCb)
-cv2_imshow(YCRImage)
+show_image(YCRImage, "YCrCb Image")
 
 # Convert to LAB color space
 LabImage = cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
-cv2_imshow(LabImage)
+show_image(LabImage, "LAB Image")
 
 # Edge Detection
 sobelXedge = cv2.Sobel(img, cv2.CV_64F, 1, 0, ksize=5)
 sobelYedge = cv2.Sobel(img, cv2.CV_64F, 0, 1, ksize=5)
 SobelXYedge = cv2.Sobel(img, cv2.CV_64F, 1, 1, ksize=5)
 
-print("Sobel X-Order Edge")
-cv2_imshow(sobelXedge)
-print("Sobel Y-Order Edge")
-cv2_imshow(sobelYedge)
-print("Sobel XY-Order Edge")
-cv2_imshow(SobelXYedge)
+show_image(sobelXedge, "Sobel X-Order Edge")
+show_image(sobelYedge, "Sobel Y-Order Edge")
+show_image(SobelXYedge, "Sobel XY-Order Edge")
 
 # Canny Edge Detection
-edges = cv2.Canny(grayImg, threshold1=30, threshold2=100)
-edges1 = cv2.Canny(grayImg, threshold1=50, threshold2=150)
-edges2 = cv2.Canny(hsvImage, threshold1=70, threshold2=200)
+edges = cv2.Canny(img, threshold1=30, threshold2=100)
+edges1 = cv2.Canny(img, threshold1=50, threshold2=150)
+edges2 = cv2.Canny(img, threshold1=70, threshold2=200)
 
-print("Canny Edge - 30-100")
-cv2_imshow(edges)
-print("Canny Edge - 50-150")
-cv2_imshow(edges1)
-print("Canny Edge - 70-200")
-cv2_imshow(edges2)
+show_image(edges, "Canny Edge - 30-100")
+show_image(edges1, "Canny Edge - 50-150")
+show_image(edges2, "Canny Edge - 70-200")
 ```
 
 ---
