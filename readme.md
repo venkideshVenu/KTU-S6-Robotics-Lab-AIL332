@@ -128,6 +128,8 @@ This laboratory introduces the Robot Operating System (ROS) as a framework for r
 - [Smart Bin](./99%20Exam%20Preparation%20Materials/01%20Smart%20Bin.md)
 
 - [Auto Window Opener](./99%20Exam%20Preparation%20Materials/02%20Auto%20Window.md)
+
+- [Ultrasonic LED Proximity Display](./99%20Exam%20Preparation%20Materials/03%20Ultrasonic_LED_Proximity_Display.md)
 ## 🚀 How to Use This Repository
 
 1. **Clone the repository:**
